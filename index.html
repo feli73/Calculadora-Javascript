@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  
+
+
+</head>
+<body>
+  
+
+  
+  <p class="js-showMessage result">0</p>
+
+
+  <p>
+  <button onclick="
+     updateCalculation('1');
+    "  class="button-number">1</button>
+
+  <button onclick="
+    updateCalculation('2');
+  "  class="button-number">2</button>
+  <button onclick="
+   updateCalculation('3');
+  "  class="button-number">3</button>
+
+  <button onclick="
+    updateCalculation(' + ')
+  " class="button-orange add">+</button>
+</p>
+
+<p>
+  <button onclick="
+    updateCalculation('4');
+    "  class="button-number">4</button>
+  <button onclick="
+    updateCalculation('5');
+  "  class="button-number">5</button>
+  <button onclick="
+   updateCalculation('6');
+  "  class="button-number">6</button>
+
+  <button onclick="
+    calculation += ' - '
+    console.log(calculation);
+  " class="button-orange">-</button>
+
+</p>
+
+<p>
+
+  <button onclick="
+    updateCalculation('7');
+    " class="button-number">7</button>
+  <button onclick="
+    updateCalculation('8');
+  " class="button-number">8</button>
+  <button onclick="
+   updateCalculation('9');
+  " class="button-number">9</button>
+
+  <button onclick="
+    updateCalculation(' * ');
+  " class="button-orange">*</button>
+</p>
+
+ <p>
+  <button onclick="
+    updateCalculation('0');
+    "  class="button-number">0</button>
+  <button onclick="
+    updateCalculation('.');
+  "  class="button-number dot">.</button>
+
+
+
+
+
+<button onclick="calculateResult()"  class="button-number">=</button>
+
+
+  
+  <button onclick="
+    updateCalculation(' / ');
+  " class="button-orange">/</button>
+ </p>
+
+
+
+ 
+<button onclick="clearCalculation()"  class="button-clear">Clear</button>
+
+
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
