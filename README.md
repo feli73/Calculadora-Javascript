@@ -25,7 +25,7 @@ You can view a live demo of the calculator [here](https://feli73.github.io/Calcu
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/javascript-calculator.git
+   git clone https://github.com/feli73/Calculator-Javascript.git
 
    Navigate to the project directory:
 
